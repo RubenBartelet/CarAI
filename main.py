@@ -239,7 +239,7 @@ gen = 0
 CURRENT_MAP_INFO = []
 
 def random_map():
-    rand = randint(1,4)
+    rand = randint(1,3)
     if rand == 1:
         MAP_INFO = [MAP,VIS_MAP,LINES]
         return MAP_INFO 
